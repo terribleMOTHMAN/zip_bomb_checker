@@ -19,13 +19,13 @@
 ## Компиляция
 Скомпилируйте проект с помощью следующей команды:
 ```bash
-gcc -o zip_bomb_checker zip_bomb_checker.c miniz.c
+gcc -o check_zip_bomb check_zip_bomb.c miniz.c
 ```
 
 ## Использование
 1. Запустите скомпилированный файл:
 ```bash
-./zip_bomb_checker
+./check_zip_bomb
 ```
 2. Введите путь к ZIP-файлу, который вы хотите проверить.
 
